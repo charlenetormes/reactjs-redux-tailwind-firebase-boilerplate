@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import Hero from './components/Hero'
 
 const App = () => {
@@ -9,7 +10,11 @@ const App = () => {
      *  
      * **/
      <div className="w-full h-auto flex flex-col bg-primary">
-         <Hero></Hero>
+         <main>
+           <Routes>
+             <Route path="/*" element={<Hero/>}></Route>
+           </Routes>
+         </main>
     </div>
   )
 }

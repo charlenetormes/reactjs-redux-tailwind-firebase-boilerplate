@@ -16,7 +16,7 @@ const Hero = () => {
                     </h1>
                 </div>
                 <div className="flex flex-col items-center justify-center h-screen">
-                    <img className="rounded-full drop-shadow-2xl w-60" src={heroLogo}></img>
+                    <img className="rounded-full drop-shadow-2xl w-60" src={heroLogo} alt="Charlene Tormes"></img>
                     <h1 className="p-10 text-xl md:text-3xl">
                       Hi! My name is <span className="text-red-400 font-semibold">Charlene Tormes</span>
                     </h1>
