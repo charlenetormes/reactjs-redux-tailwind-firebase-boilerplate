@@ -20,7 +20,7 @@ const Hero = () => {
                     <h1 className="p-10 text-xl md:text-3xl">
                       Hi! My name is <span className="text-red-400 font-semibold">Charlene Tormes</span>
                     </h1>
-                    <p className="p-20 md:p-5">Created this boilerplate for React so it's easier to start your project react over again</p>
+                    <p className="p-20 md:p-5">Created this boilerplate for React so it's easier to start your react project over again</p>
                     <h2 className="mt-2 md:mt-10 font-semibold">
                       Give me a <span className="text-red-400">follow</span>
                     </h2>
